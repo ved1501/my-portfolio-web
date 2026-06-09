@@ -285,16 +285,17 @@ section {
 .about-details-container{
     justify-content: center;
     flex-direction: column;
+     border:rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    border-radius: 2rem;
+    
 }
 
 .about-containers, .about-details-container{
     display: flex;
+    padding: 10px;
 }
 
-
-.about-pic{
-    border-radius: 2rem;
-}
 
 .arrow{
     position: absolute;
@@ -316,6 +317,12 @@ section {
 .section-container{
     gap:4rem;
     height:80%;
+   
+    padding: 5px;
+}
+
+.text-container{
+    text-align: center;
 }
 
 /* EXPERIENCE SECTION*/
